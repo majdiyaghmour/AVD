@@ -33,7 +33,7 @@
         "properties": {
           "buildTimeoutInMinutes": 30,
           "vmProfile": {
-            "vmSize": "Basic_A2",
+            "vmSize": "DS1_v2",
             "osDiskSizeGB": 60
           },
           "source": {
