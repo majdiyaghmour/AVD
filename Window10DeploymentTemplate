@@ -33,14 +33,14 @@
         "properties": {
           "buildTimeoutInMinutes": 30,
           "vmProfile": {
-            "vmSize": "DS1_v2",
-            "osDiskSizeGB": 60
+            "vmSize": "Standard_B1s",
+            "osDiskSizeGB": 127
           },
           "source": {
             "type": "PlatformImage",
             "publisher": "MicrosoftWindowsDesktop",
-            "offer": "Windows-10",
-            "sku": "win10-22h2-avd-g2",
+            "offer": "office-365",
+            "sku": "win10-22h2-avd-m365-g2",
             "version": "latest"
           },
           "customize": [
